@@ -34,15 +34,42 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+Inputs:
+
+S: Set input
+R: Reset input
+Q: Current state (output)
+Q_next: Next state (output after processing inputs)
+A clock signal triggers the flip-flop.
+Behavior:
+
+S = 0 and R = 0: No change (output remains the same).
+S = 0 and R = 1: Reset the output (Q_next = 0).
+S = 1 and R = 0: Set the output (Q_next = 1).
+S = 1 and R = 1: Invalid state (usually avoided in proper design).
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+Developed By:RAM PRASATH S,Register Number:24900195
+
+![ex6 code DE](https://github.com/user-attachments/assets/87d80722-af00-42cf-9d6a-58a1c93ca70d)
+
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![DE ex6 diagram](https://github.com/user-attachments/assets/e311a779-3c2b-48e7-b4c6-624774e5bcb1)
+
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![DE ex6 waveform](https://github.com/user-attachments/assets/115633df-deda-4ab1-a8fd-190922a5541e)
+
+
+
 **RESULTS**
+
+The  implement  SR flipflop using verilog and validating their functionality using their functional tables
+
